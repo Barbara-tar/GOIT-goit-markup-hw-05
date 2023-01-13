@@ -611,7 +611,7 @@ body {
 }
 
 .footer-address-link-u {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-address-link:hover,
