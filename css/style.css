@@ -432,7 +432,9 @@ body {
 }
 
 .icon-client:hover,
-.icon-client:focus {
+.customers-box:hover,
+.icon-client:focus,
+.customers-box:focus {
   fill: var(--higlight-color);
   border-color: var(--higlight-color);
 }
