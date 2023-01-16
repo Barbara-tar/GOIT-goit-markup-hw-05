@@ -74,6 +74,12 @@ body {
   fill: currentColor;
 }
 
+.contact-icon:hover,
+.contact-icon:focus {
+  color: var(--higlight-color);
+  background-color: var(--background-color);
+}
+
 .header-address,
 .header-phone {
   font-weight: 500;
@@ -82,11 +88,9 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--support-color);
-
   display: flex;
   align-items: center;
   gap: 10px;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
