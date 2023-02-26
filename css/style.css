@@ -569,6 +569,7 @@ body {
 
 .project-descrip {
   border: 1px solid;
+  border: var(--projects-color);
   border-top: none;
 }
 
