@@ -493,7 +493,6 @@ body {
 .project-card {
   background-color: var(--white-color);
   border: 1px solid var(--projects-color);
-
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
